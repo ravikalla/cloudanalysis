@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "cloudanalysis",
+    "packageName": "in.ravikalla.cloudanalysis",
+    "packageFolder": "in/ravikalla/cloudanalysis",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.1.2",
+    "jwtSecretKey": "NzBlNDY3NmI1ZTIwYjIxY2E1NTA1MWE5ZDFiMTY3Zjg2OGNiN2Y0NTVlN2M0MmUwYjQ2Y2UyYzAyOTYzZDNjMzM1MzFjMjIzNTcyMmRkYTNlZmRiNGM5OTFkNmUzMzk0ZWVjZmRhZTdmY2FhMWFlZjE4OWZlNDZkNzRmZWMxYjA=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "ravikalla",
+  "repository-name": "cloudanalysis"
+}
